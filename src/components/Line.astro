@@ -1,0 +1,31 @@
+---
+// Generate random control points within reasonable bounds
+const width = 2000; // Adjust based on your needs
+const height = 800; // Adjust based on your needs
+
+// Random points for the curve
+const startX = 0;
+const startY = Math.random() * height + 500;
+const endX = width;
+const endY = Math.random() * height;
+
+// Control points for the curve
+const ctrl1X = width * 0.3 + (Math.random() * 100 - 50);
+const ctrl1Y = Math.random() * height;
+const ctrl2X = width * 0.7 + (Math.random() * 100 - 50);
+const ctrl2Y = Math.random() * height;
+---
+
+<svg
+  class="absolute top-0 right-0 pointer-events-none -z-10 text-black opacity-20"
+  width={width}
+  height={height}
+  viewBox={`0 0 ${width} ${height}`}
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d={`M ${startX} ${startY} C ${ctrl1X} ${ctrl1Y}, ${ctrl2X} ${ctrl2Y}, ${endX} ${endY}`}
+    fill="none"
+    stroke="currentColor"
+    stroke-width="1"></path>
+</svg>

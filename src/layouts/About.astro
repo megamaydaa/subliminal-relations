@@ -10,6 +10,7 @@ import AboutImage from "../components/AboutImage.astro";
 import AboutText from "../components/AboutText.astro";
 import Helmet from "../components/Helmet.astro";
 import Nav from "../components/Nav.astro";
+import Line from "../components/Line.astro";
 import "../styles/global.scss";
 
 const { frontmatter } = Astro.props;
@@ -24,6 +25,8 @@ const { title } = frontmatter;
     class="w-screen h-screen gap-8 mb-[100px] grid grid-areas-mobile-about grid-cols-mobile-about grid-rows-mobile-about lg:grid-rows-desktop-about lg:grid-areas-desktop-about lg:grid-cols-desktop-about"
   >
     <Nav />
+    <Line />
+    <Line />
     <AboutText>
       <slot />
     </AboutText>

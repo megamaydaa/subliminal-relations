@@ -9,6 +9,7 @@ interface Props {
 import Helmet from "../components/Helmet.astro";
 import LandingImage from "../components/LandingImage.astro";
 import LandingText from "../components/LandingText.astro";
+import Line from "../components/Line.astro";
 import Nav from "../components/Nav.astro";
 import "../styles/global.scss";
 
@@ -24,6 +25,8 @@ const { title } = frontmatter;
     class="overscroll-none w-screen h-screen lg:mb-16 grid grid-areas-mobile-landing lg:grid-areas-desktop-landing grid-cols-mobile-landing lg:grid-cols-desktop-landing gap-8"
   >
     <Nav />
+    <Line />
+    <Line />
     <LandingText>
       <slot />
     </LandingText>

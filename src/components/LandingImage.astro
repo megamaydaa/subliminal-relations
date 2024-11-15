@@ -1,10 +1,15 @@
 ---
-import { Image } from "astro:assets";
-import landingImage from "../assets/landing-lower.webp";
+
 ---
 
-<Image
-  class="grid-in-gif lg:-mb-[150px] w-full self-end"
-  src={landingImage}
-  alt="TODO alt"
-/>
+<div class="relative grid-in-gif lg:-mb-[150px] w-full self-end">
+  <video class="mask-top" src={"/slow-motion-loop-half.mp4"} autoplay muted loop
+  ></video>
+</div>
+
+<style>
+  .mask-top {
+    -webkit-mask-image: linear-gradient(to bottom, transparent, black 30%);
+    mask-image: linear-gradient(to bottom, transparent, black 30%);
+  }
+</style>

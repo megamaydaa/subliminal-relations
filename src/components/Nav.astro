@@ -1,10 +1,14 @@
 ---
 const location = Astro.url.pathname;
+import logo from "../../public/together3.gif";
 ---
 
 <nav class="w-full p-6 text-2xl grid-in-nav">
   <ul class="flex lg:flex-col w-full [&_li]:px-4 after:">
-    <li class="uppercase tracking-wider text-[#4b86b7]">
+    <li class="uppercase tracking-wider text-[#4b86b7] flex items-center gap-4">
+      <div class="w-[150px]">
+        <img src={logo.src} alt="Subliminal Relations" />
+      </div>
       <a
         href="/"
         class={`${location === "/" ? "text-[#27577d]" : "hover:text-[#1d4464]"} transition-all duration-300 w-max inline-block lg:w-min`}
@@ -12,7 +16,7 @@ const location = Astro.url.pathname;
         Subliminal Relations
       </a>
     </li>
-    <li class="tracking-wide text-foreground">
+    <li class="tracking-wide text-foreground flex items-center gap-4">
       <a
         href="/workshops"
         class={`${location === "/workshops" ? "text-[#27577d]" : "hover:text-[#4b86b7]"} transition-all duration-300`}
@@ -20,7 +24,7 @@ const location = Astro.url.pathname;
         Workshops
       </a>
     </li>
-    <li class="tracking-wide text-foreground">
+    <li class="tracking-wide text-foreground flex items-center gap-4">
       <a
         href="https://calendly.com/subliminalrelations"
         class="hover:text-[#4b86b7] transition-all duration-300"
@@ -28,7 +32,7 @@ const location = Astro.url.pathname;
         Schedule
       </a>
     </li>
-    <li class="tracking-wide text-foreground">
+    <li class="tracking-wide text-foreground flex items-center gap-4">
       <a
         href="/about"
         class={`${location === "/about" ? "text-[#27577d]" : "hover:text-[#4b86b7]"}  transition-all duration-300`}
