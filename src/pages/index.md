@@ -7,9 +7,9 @@ title: Subliminal Relations
 
 ## Relational Embodiment Coaching
 
-In Relational Embodiment Coaching I offer myself as a mirror for working through the inner and outter relationships that make you you. We collaborate to uncover what you're longing for and what gets in the way. In the process you will make contact with and learn from the interpersonal, social and environmental relations that have shaped you, and rediscover your agency to shape them back.
+In Relational Embodiment Coaching we work together to uncover what you're longing for and move through what gets in the way. Cultivating presence with the body is a process that can be joyful, surprising, sorrowful, and integrative. Ultimately, it is a process of re-connection to a sense of inherent belonging with life. 
 
-I incorporate modalities that help restore the balance between relationship and agency. These include the Neuroaffective Relational Model (NARM) for working with relational trauma, Inner Relationship Focusing, generative somatics embodiment coaching, and trauma informed peer support. I come with the wisdom of my own lived experience of madness and view the work as a co-learning process with you at the center and me as a companion. I am being mentored by Dr. Rae Johnson. 
+I incorporate modalities that help restore the balance between relationship and agency. These include the Neuroaffective Relational Model (NARM) for working with relational trauma, Inner Relationship Focusing, generative somatics embodiment coaching, and Intentional Peer Support. I come with the wisdom of my own lived experience of madness and practice a non-pathologizing approach to mental health. I am being mentored by Dr. Rae Johnson. 
 
 Sessions are sliding scale 40-75 for 60 minutes
 
