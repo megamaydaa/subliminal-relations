@@ -1,0 +1,40 @@
+---
+const location = Astro.url.pathname;
+---
+
+<nav class="w-full p-6 text-2xl grid-in-nav">
+  <ul class="flex lg:flex-col w-full [&_li]:px-4 after:">
+    <li class="uppercase tracking-wider text-[#4b86b7]">
+      <a
+        href="/"
+        class={`${location === "/" ? "text-[#27577d]" : "hover:text-[#1d4464]"} transition-all duration-300 w-max inline-block lg:w-min`}
+      >
+        Subliminal Relations
+      </a>
+    </li>
+    <li class="tracking-wide text-foreground">
+      <a
+        href="/workshops"
+        class={`${location === "/workshops" ? "text-[#27577d]" : "hover:text-[#4b86b7]"} transition-all duration-300`}
+      >
+        Workshops
+      </a>
+    </li>
+    <li class="tracking-wide text-foreground">
+      <a
+        href="https://calendly.com/subliminalrelations"
+        class="hover:text-[#4b86b7] transition-all duration-300"
+      >
+        Schedule
+      </a>
+    </li>
+    <li class="tracking-wide text-foreground">
+      <a
+        href="/about"
+        class={`${location === "/about" ? "text-[#27577d]" : "hover:text-[#4b86b7]"}  transition-all duration-300`}
+      >
+        About
+      </a>
+    </li>
+  </ul>
+</nav>

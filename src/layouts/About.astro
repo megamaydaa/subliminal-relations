@@ -1,0 +1,32 @@
+---
+interface Props {
+  frontmatter: {
+    title: string;
+    lowerImage: string;
+  };
+}
+
+import AboutImage from "../components/AboutImage.astro";
+import AboutText from "../components/AboutText.astro";
+import Helmet from "../components/Helmet.astro";
+import Nav from "../components/Nav.astro";
+import "../styles/global.scss";
+
+const { frontmatter } = Astro.props;
+
+const { title } = frontmatter;
+---
+
+<!doctype html>
+<html lang="en" class="overscroll-none">
+  <Helmet title={title} />
+  <body
+    class="w-screen h-screen gap-8 mb-[100px] grid grid-areas-mobile-about grid-cols-mobile-about grid-rows-mobile-about lg:grid-rows-desktop-about lg:grid-areas-desktop-about lg:grid-cols-desktop-about"
+  >
+    <Nav />
+    <AboutText>
+      <slot />
+    </AboutText>
+    <AboutImage />
+  </body>
+</html>

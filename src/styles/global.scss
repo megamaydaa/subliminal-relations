@@ -1,0 +1,7 @@
+@use "./variables";
+@use "./fonts";
+
+html {
+  background-color: var(--background);
+  font-family: "HelmetNeue", sans-serif;
+}

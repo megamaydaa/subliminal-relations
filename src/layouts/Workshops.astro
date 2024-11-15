@@ -1,0 +1,43 @@
+---
+interface Props {
+  frontmatter: {
+    title: string;
+    lowerImage: string;
+  };
+}
+
+import { Masonry } from "webcoreui/astro";
+import Helmet from "../components/Helmet.astro";
+import Nav from "../components/Nav.astro";
+import "../styles/global.scss";
+import { getCollection } from "astro:content";
+import { Image } from "astro:assets";
+
+const { frontmatter } = Astro.props;
+
+const { title } = frontmatter;
+
+const workshops = await getCollection("workshops");
+const allImages = workshops.map((ws) => {
+  return {
+    component: Image,
+    props: {
+      src: ws.data.flyer,
+      alt: "TODO",
+    },
+  };
+});
+---
+
+<!doctype html>
+<html lang="en" class="overscroll-none">
+  <Helmet title={title} />
+  <body
+    class="w-screen gap-8 grid grid-areas-mobile-workshops grid-cols-mobile-workshops grid-rows-mobile-workshops lg:grid-areas-desktop-workshops lg:grid-cols-desktop-workshops"
+  >
+    <Nav />
+    <div class="py-8 px-16">
+      <Masonry items={allImages} columns={2} gap="12px" />
+    </div>
+  </body>
+</html>
