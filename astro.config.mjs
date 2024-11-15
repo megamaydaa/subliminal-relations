@@ -8,6 +8,7 @@ import preact from "@astrojs/preact";
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind(), preact()],
+  site: 'https://subliminalrelations.com',
   vite: {
     ssr: {
       noExternal: ["webcoreui"],
