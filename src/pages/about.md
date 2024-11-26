@@ -7,6 +7,6 @@ My name is Megan Daalder and I come to the healing arts with a background in [pe
 
 I am currently training to become a somatic psychotherapist, but Relational Embodiment Healing is my effort to create a non-clinical, non-pathologizing container. I incorporate modalities, some of which are clinical, that feel philosophically and politically aligned with a decolonial anticapitalist practice.
 
-I am deeply committed to collective healing and run a workshop called "What is a Collective Nervous System?" regularly. I also collaborate on several popular education projects that make psychotherapeutic theories more accessible and occasionally publish zines like this one.
+I am deeply committed to collective healing and run a workshop called "What is a Collective Nervous System?" regularly. I also collaborate on several popular education projects that make psychotherapeutic theories more accessible and occasionally publish zines like [this one](https://files.cargocollective.com/c597426/PDF-Common-psychotherapy.pdf).
 
 
