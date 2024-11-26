@@ -15,4 +15,4 @@ what: 60 minute sessions
 where: on zoom or in my studio in Mt. Washington, Los Angeles
 how much: sliding scale 40-75$ for 60 minutes
 
-## [Book a Free Consultation](http://google.com)
+## [Book a Free Consultation](https://calendly.com/subliminalrelations/30min)
