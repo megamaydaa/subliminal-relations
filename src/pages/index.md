@@ -11,9 +11,9 @@ In Relational Embodiment Healing, we orient to what you're longing for and learn
 
 I incorporate modalities that help restore the balance between relationship and agency. These include the Neuroaffective Relational Model (NARM) for working with relational trauma, Inner Relationship Focusing, generative somatics, theater and dance practices, and Intentional Peer Support. I come with the wisdom of my own lived experience of madness and practice a non-pathologizing approach to emotional health. I am being mentored by Dr. Rae Johnson. 
 
-what: 60 minute sessions
-where: on zoom or in my studio in Mt. Washington, Los Angeles
-how much: sliding scale 50-150$ for 60 minutes*
-*if you're interested in working together and the low end of the sliding scale is still inaccessible for you, contact me to discuss other options 
+- **what:** 60 minute sessions
+- **where:** on zoom or in my studio in Mt. Washington, Los Angeles
+- **how much:** sliding scale 50-150$ for 60 minutes*
+  <small>* if you're interested in working together and the low end of the sliding scale is still inaccessible for you, contact me to discuss other options</small>
 
 ## [Book a Free Consultation](https://calendly.com/subliminalrelations/30min)

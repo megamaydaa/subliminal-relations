@@ -19,10 +19,10 @@ const { title } = frontmatter;
 ---
 
 <!doctype html>
-<html lang="en" class="overscroll-none">
+<html lang="en" class="overscroll-none w-screen overflow-x-hidden">
   <Helmet title={title} />
   <body
-    class="overscroll-none w-screen h-screen lg:mb-16 grid grid-areas-mobile-landing lg:grid-areas-desktop-landing grid-cols-mobile-landing lg:grid-cols-desktop-landing gap-8"
+    class="overscroll-none w-full h-screen lg:mb-0 grid grid-areas-mobile-landing lg:grid-areas-desktop-landing grid-cols-mobile-landing lg:grid-cols-desktop-landing lg:grid-rows-desktop-landing gap-8 overflow-x-hidden"
   >
     <Nav />
     <Line />
