@@ -24,7 +24,7 @@ export default {
         "desktop-workshops": "1fr 6fr",
       },
       gridTemplateRows: {
-        "mobile-about": "300px 400px auto",
+        "mobile-about": "300px 950px auto",
         "desktop-about": "141px 400px 1fr",
         "mobile-landing": "100px auto",
         "desktop-landing": "141px auto",
