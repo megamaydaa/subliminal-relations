@@ -26,7 +26,7 @@ export default {
       gridTemplateRows: {
         "mobile-about": "300px 950px auto",
         "desktop-about": "141px 400px 1fr",
-        "mobile-landing": "100px auto",
+        "mobile-landing": "200px 1450px 200px",
         "desktop-landing": "141px auto",
       },
     },
