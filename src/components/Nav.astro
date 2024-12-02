@@ -3,12 +3,12 @@ const location = Astro.url.pathname;
 import logo from "../../public/together3.gif";
 ---
 
-<nav class="w-full p-6 text-2xl grid-in-nav">
+<nav class="w-full p-6 text-2xl pb-0 grid-in-nav">
   <ul class="flex lg:flex-col w-full [&_li]:px-4 after:">
     <li class="uppercase tracking-wider text-[#4b86b7] flex items-center gap-4">
-      <div class="w-[150px]">
+      <a href="/" class="w-[150px]">
         <img src={logo.src} alt="Subliminal Relations" />
-      </div>
+      </a>
       <a
         href="/"
         class={`${location === "/" ? "text-[#27577d]" : "hover:text-[#1d4464]"} transition-all duration-300 w-max inline-block lg:w-min`}
