@@ -6,7 +6,7 @@ title: Subliminal Relations
 ---
 
 ## 1-on-1 Relational Embodiment Healing
-- **feeling ourselves is a danger to those who benefit from us staying numb
+- **feeling ourselves is a danger to those who benefit from us staying numb**
 
 In Relational Embodiment Healing, we orient to what you're longing for and learn to dialogue with what gets in the way. We move at your pace to open channels of communication between past, present and future by developing fluency in the body's language of images, sensations and emotions. Through an exploratory process of re-connection, our work together will help relieve the inner pressure that builds when we lose connection with ourselves and our inherent belonging with life.
 
