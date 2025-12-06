@@ -1,15 +1,28 @@
 import { z, defineCollection } from "astro:content";
 
 const workshopCollection = defineCollection({
+  type: "content",
   schema: ({ image }) =>
-    z.object({
-      title: z.string(),
-      flyer: image().refine((img) => img.width >= 500, {
-        message: "Flyer image must be at least 500 pixels wide!",
+    z.union([
+      z.object({
+        title: z.string(),
+        image: image().refine((img) => img.width >= 500, {
+          message: "Image must be at least 500 pixels wide!",
+        }),
+        imageAlt: z.string().optional(),
+        date: z.string(),
+        time: z.string(),
+        location: z.string(),
       }),
-      flyerAlt: z.string().optional(),
-      location: z.string(),
-    }),
+      z.object({
+        title: z.string(),
+        flyer: image().refine((img) => img.width >= 500, {
+          message: "Flyer image must be at least 500 pixels wide!",
+        }),
+        flyerAlt: z.string().optional(),
+        location: z.string(),
+      }),
+    ]),
 });
 
 export const collections = {

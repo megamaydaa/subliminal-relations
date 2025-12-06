@@ -11,19 +11,27 @@ import Helmet from "../components/Helmet.astro";
 import Nav from "../components/Nav.astro";
 import "../styles/global.scss";
 import { getCollection } from "astro:content";
-import { Image } from "astro:assets";
+import WorkshopImage from "../components/WorkshopImage.astro";
 
 const { frontmatter } = Astro.props;
 
 const { title } = frontmatter;
 
 const workshops = await getCollection("workshops");
+const workshopsWithPages = ["being_another_world"];
+
 const allImages = workshops.map((ws) => {
+  const imageSrc = "image" in ws.data ? ws.data.image : ws.data.flyer;
+  const imageAlt = ("imageAlt" in ws.data ? ws.data.imageAlt : ws.data.flyerAlt) || ws.data.title;
+  const hasLink = workshopsWithPages.includes(ws.slug);
+  const link = hasLink ? `/workshops/${ws.slug}` : null;
+  
   return {
-    component: Image,
+    component: WorkshopImage,
     props: {
-      src: ws.data.flyer,
-      alt: "TODO",
+      src: imageSrc,
+      alt: imageAlt,
+      link: link,
     },
   };
 });

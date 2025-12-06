@@ -1,11 +1,15 @@
 ---
-layout: "../layouts/BAW.astro"
-title: Being Another World
+title: "Being Another World: a path back to somatic solidarity"
+image: "images/BAWImage.jpg"
+imageAlt: "text element that says a path back to somatic solidarity emerging from a sphere surrounded by darkness"
+date: "TBD"
+time: "TBD"
+location: "TBD"
 ---
 
 ## Being Another World: a path back to somatic solidarity
 
-Science and wisdom agree that we are sensing, simulating and responding to one another somatically all the time. This nonverbal communication is how we learn as babies, and it continues to inform how we approach relationships as we change and grow. Bringing this implicit sensing into awareness is the premise of most somatic healing modalities, though most somatic healing modalities don’t recognize the contribution of the social conditions to this process. Being Another World is a learning and healing circle dedicated to building resilience against the colonial lie of disconnection from our bodies, the wider living world and one another. 
+Science and wisdom agree that we are sensing, simulating and responding to one another somatically all the time. This nonverbal communication is how we learn as babies, and it continues to inform how we approach relationships as we change and grow. Bringing this implicit sensing into awareness is the premise of most somatic healing modalities, though most somatic healing modalities don't recognize the contribution of the social conditions to this process. Being Another World is a learning and healing circle dedicated to building resilience against the colonial lie of disconnection from our bodies, the wider living world and one another. 
 
 Over the course of six weeks we will explore six themes: (1) Ground, (2) Agency, (3) Reciprocity, (4) Rupture, Humility and Repair, (5) Rage, Grief and Opening and (6) Somatic Solidarity. These core themes are starting points based on our training and lived experience, and we expect them to shift and change alongside the lived experience of the group. The level of intimacy and vulnerability will also be shaped by the group in real time, and situated within the larger process of co-creating an adaptive container to hold the collective aliveness that narrowly defined social conditions deny. 
 
@@ -26,3 +30,4 @@ Each 2-hour bi-weekly session will begin with relational exercises and experimen
 - An introduction to theory and practice that can support your ongoing, deepening exploration of embodiment as a path back to somatic solidarity. 
 
 ## <a href="https://calendly.com/subliminalrelations/30min" target="_blank" rel="noopener noreferrer">Sign up</a>
+

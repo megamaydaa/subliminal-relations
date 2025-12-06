@@ -1,0 +1,36 @@
+---
+import { getCollection } from "astro:content";
+import WorkshopPage from "../../layouts/WorkshopPage.astro";
+import { render } from "astro:content";
+
+export async function getStaticPaths() {
+  const workshops = await getCollection("workshops");
+  return workshops
+    .filter((workshop) => "image" in workshop.data)
+    .map((workshop) => ({
+      params: { slug: workshop.slug },
+      props: { workshop },
+    }));
+}
+
+const { workshop } = Astro.props;
+const { Content } = await render(workshop);
+
+if (!("image" in workshop.data)) {
+  return Astro.redirect("/workshops", 404);
+}
+---
+
+<WorkshopPage
+  frontmatter={{
+    title: workshop.data.title,
+    image: workshop.data.image,
+    imageAlt: workshop.data.imageAlt,
+    date: workshop.data.date,
+    time: workshop.data.time,
+    location: workshop.data.location,
+  }}
+>
+  <Content />
+</WorkshopPage>
+
