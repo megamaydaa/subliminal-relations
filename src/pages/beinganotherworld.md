@@ -1,5 +1,5 @@
 ---
-layout: "../layouts/About.astro"
+layout: "../layouts/BAW.astro"
 title: Being Another World
 ---
 
