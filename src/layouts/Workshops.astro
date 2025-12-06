@@ -22,7 +22,7 @@ const workshopsWithPages = ["being_another_world"];
 
 const allImages = workshops.map((ws) => {
   const imageSrc = "image" in ws.data ? ws.data.image : ws.data.flyer;
-  const imageAlt = ("imageAlt" in ws.data ? ws.data.imageAlt : ws.data.flyerAlt) || ws.data.title;
+  const imageAlt = ("image" in ws.data ? ws.data.imageAlt : "flyer" in ws.data ? ws.data.flyerAlt : undefined) || ws.data.title;
   const hasLink = workshopsWithPages.includes(ws.slug);
   const link = hasLink ? `/workshops/${ws.slug}` : null;
   
