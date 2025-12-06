@@ -6,11 +6,13 @@ interface Props {
   };
 }
 
-import AboutImage from "../components/BAWImage.astro";
+import { Image } from "astro:assets";
+import flyer from "../assets/BAWImage.jpg";
+
 import AboutText from "../components/AboutText.astro";
 import Helmet from "../components/Helmet.astro";
 import Nav from "../components/Nav.astro";
-import Line from "../components/Line.astro";
+import Line from "../components/Line.astro"; 
 import "../styles/global.scss";
 
 const { frontmatter } = Astro.props;
@@ -27,10 +29,14 @@ const { title } = frontmatter;
     <Nav />
     <Line />
     <Line />
+    <Image
+      class="self-center justify-self-end lg:justify-self-start lg:self-start"
+      src={flyer}
+      alt="text element that says a path back to somatic solidarity emerging from a sphere surrounded by darkness"
+    />
     <AboutText>
       <slot />
     </AboutText>
-    <AboutImage />
   </body>
 </html>
 
