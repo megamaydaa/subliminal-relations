@@ -30,11 +30,19 @@ const { title } = frontmatter;
     <Line />
     <Line />
     <AboutText>
+<div>
     <Image
       class="self-center justify-self-end lg:justify-self-start lg:self-start"
       src={flyer}
       alt="text element that says a path back to somatic solidarity emerging from a sphere surrounded by darkness"
     />
+<ul>
+<li>Date:</li>
+<li>Time:</li>
+<li>Location</li>
+</ul>
+</div>
+
       <slot />
     </AboutText>
   </body>
