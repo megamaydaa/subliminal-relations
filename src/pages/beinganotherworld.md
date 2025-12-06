@@ -12,11 +12,13 @@ Over the course of six weeks we will explore six themes: (1) Ground, (2) Agency,
 Each 2-hour bi-weekly session will begin with relational exercises and experiments drawn from somatic therapy techniques and theater games, followed by circle discussions to connect implicit embodied insights with conscious awareness. These in person weeks will be supplemented with reading materials and opportunities for further discussion on a dedicated Discord channel. Week six will conclude with an integrative, low-stakes show and tell as an expression of agency and relational culture for another world. 
 
 **Who is This For?**
+
 -This workshop is for anyone interested in exploring the power of and barriers to the felt-sense of relationship as a horizon of social change
 -Helping professionals who want to step more into their own embodiment and support their clients through "limbic resonance"
 -Community organizers who want to bring their whole self to their political work
 
 **What Will I Step Away With?**
+
 -A greater sense of availability, flexibility, courage and internal space for inner and inter-relationship.
 -A step towards the felt-sense of belonging to something bigger than the current status quo. 
 -Simple practices that you can bring to your social world to continue the work of building collective agency after the workshop.
