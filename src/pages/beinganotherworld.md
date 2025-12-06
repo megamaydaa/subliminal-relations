@@ -13,16 +13,16 @@ Each 2-hour bi-weekly session will begin with relational exercises and experimen
 
 **Who is This For?**
 
--This workshop is for anyone interested in exploring the power of and barriers to the felt-sense of relationship as a horizon of social change
--Helping professionals who want to step more into their own embodiment and support their clients through "limbic resonance"
--Community organizers who want to bring their whole self to their political work
+- This workshop is for anyone interested in exploring the power of and barriers to the felt-sense of relationship as a horizon of social change
+- Helping professionals who want to step more into their own embodiment and support their clients through "limbic resonance"
+- Community organizers who want to bring their whole self to their political work
 
 **What Will I Step Away With?**
 
--A greater sense of availability, flexibility, courage and internal space for inner and inter-relationship.
--A step towards the felt-sense of belonging to something bigger than the current status quo. 
--Simple practices that you can bring to your social world to continue the work of building collective agency after the workshop.
--Principles of relational, embodied healing that you can creatively expand upon in ongoing trainings or personal therapy.
--An introduction to theory and practice that can support your ongoing, deepening exploration of embodiment as a path back to somatic solidarity. 
+- A greater sense of availability, flexibility, courage and internal space for inner and inter-relationship.
+- A step towards the felt-sense of belonging to something bigger than the current status quo. 
+- Simple practices that you can bring to your social world to continue the work of building collective agency after the workshop.
+- Principles of relational, embodied healing that you can creatively expand upon in ongoing trainings or personal therapy.
+- An introduction to theory and practice that can support your ongoing, deepening exploration of embodiment as a path back to somatic solidarity. 
 
 ## <a href="https://calendly.com/subliminalrelations/30min" target="_blank" rel="noopener noreferrer">Sign up</a>
