@@ -12,13 +12,13 @@ const { src, alt, link } = Astro.props;
 ---
 
 {link ? (
-  <a href={link} class="block group relative overflow-hidden rounded-lg transition-all duration-300 hover:scale-[1.02] hover:shadow-lg cursor-pointer">
+  <a href={link} target="_blank" rel="noopener noreferrer" class="block group relative overflow-hidden rounded-lg transition-all duration-300 hover:scale-[1.02] hover:shadow-lg cursor-pointer">
     <Image src={src} alt={alt} class="transition-all duration-300 group-hover:opacity-90" />
     <div class="absolute inset-0 bg-[#27577d]/0 group-hover:bg-[#27577d]/10 transition-all duration-300 flex items-center justify-center">
-      <span class="text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">View Workshop →</span>
+      <span class="text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">View PDF →</span>
     </div>
   </a>
 ) : (
-  <Image src={src} alt={alt} class="rounded-lg" />
+  <Image src={src} alt={alt} />
 )}
 

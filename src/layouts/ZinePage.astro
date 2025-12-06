@@ -1,0 +1,70 @@
+---
+interface Props {
+  frontmatter: {
+    title: string;
+    image: ImageMetadata;
+    imageAlt?: string;
+    pdf: string;
+  };
+}
+
+import { Image } from "astro:assets";
+import type { ImageMetadata } from "astro";
+import Helmet from "../components/Helmet.astro";
+import Nav from "../components/Nav.astro";
+import Line from "../components/Line.astro";
+import "../styles/global.scss";
+
+const { frontmatter } = Astro.props;
+const { title, image, imageAlt, pdf } = frontmatter;
+---
+
+<!doctype html>
+<html lang="en" class="overscroll-none">
+  <Helmet title={title} />
+  <body
+    class="w-screen h-screen gap-8 mb-[100px] grid grid-areas-mobile-workshop-page grid-cols-mobile-workshop-page grid-rows-mobile-workshop-page lg:grid-rows-desktop-workshop-page lg:grid-areas-desktop-workshop-page lg:grid-cols-desktop-workshop-page"
+  >
+    <Nav />
+    <Line />
+    <Line />
+    <div class="grid-in-left-column hidden lg:flex flex-col gap-6 lg:px-0">
+      <a href={pdf} target="_blank" rel="noopener noreferrer" class="block group relative overflow-hidden rounded-lg transition-all duration-300 hover:scale-[1.02] hover:shadow-lg cursor-pointer">
+        <Image
+          class="self-center justify-self-start w-full max-w-2xl transition-all duration-300 group-hover:opacity-90"
+          src={image}
+          alt={imageAlt || title}
+        />
+        <div class="absolute inset-0 bg-[#27577d]/0 group-hover:bg-[#27577d]/10 transition-all duration-300 flex items-center justify-center">
+          <span class="text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">View PDF →</span>
+        </div>
+      </a>
+      <div class="text-2xl lg:text-lg space-y-2">
+        <div><strong>PDF:</strong> <a href={pdf} target="_blank" rel="noopener noreferrer" class="underline">Download</a></div>
+      </div>
+    </div>
+    <div class="grid-in-content lg:hidden flex flex-col gap-6 px-8 -mt-[10px]">
+      <a href={pdf} target="_blank" rel="noopener noreferrer" class="block group relative overflow-hidden rounded-lg transition-all duration-300 hover:scale-[1.02] hover:shadow-lg cursor-pointer">
+        <Image
+          class="self-center justify-self-start w-full max-w-2xl transition-all duration-300 group-hover:opacity-90"
+          src={image}
+          alt={imageAlt || title}
+        />
+        <div class="absolute inset-0 bg-[#27577d]/0 group-hover:bg-[#27577d]/10 transition-all duration-300 flex items-center justify-center">
+          <span class="text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">View PDF →</span>
+        </div>
+      </a>
+      <div class="text-2xl space-y-2">
+        <div><strong>PDF:</strong> <a href={pdf} target="_blank" rel="noopener noreferrer" class="underline">Download</a></div>
+      </div>
+    </div>
+    <div
+      class="hidden lg:grid lg:grid-in-right-column -mt-[10px] lg:px-0 text-3xl lg:text-lg text-left flex justify-start items-start"
+    >
+      <div class="max-w-screen-md self-start w-full">
+        <slot />
+      </div>
+    </div>
+  </body>
+</html>
+

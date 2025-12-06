@@ -25,6 +25,20 @@ const workshopCollection = defineCollection({
     ]),
 });
 
+const zineCollection = defineCollection({
+  type: "content",
+  schema: ({ image }) =>
+    z.object({
+      title: z.string(),
+      image: image().refine((img) => img.width >= 500, {
+        message: "Image must be at least 500 pixels wide!",
+      }),
+      imageAlt: z.string().optional(),
+      pdf: z.string(),
+    }),
+});
+
 export const collections = {
   workshops: workshopCollection,
+  zines: zineCollection,
 };

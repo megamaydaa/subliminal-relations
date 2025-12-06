@@ -1,0 +1,28 @@
+---
+import { getCollection } from "astro:content";
+import ZinePage from "../../layouts/ZinePage.astro";
+import { render } from "astro:content";
+
+export async function getStaticPaths() {
+  const zines = await getCollection("zines");
+  return zines.map((zine) => ({
+    params: { slug: zine.slug },
+    props: { zine },
+  }));
+}
+
+const { zine } = Astro.props;
+const { Content } = await render(zine);
+---
+
+<ZinePage
+  frontmatter={{
+    title: zine.data.title,
+    image: zine.data.image,
+    imageAlt: zine.data.imageAlt,
+    pdf: zine.data.pdf,
+  }}
+>
+  <Content />
+</ZinePage>
+
