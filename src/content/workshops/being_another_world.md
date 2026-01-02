@@ -32,8 +32,8 @@ The core themes are starting points based on our training and lived experience a
 - An introduction to theory and practice that can support your ongoing, deepening exploration of embodiment as a path back to somatic solidarity. 
 
 ## <a href="https://forms.gle/A8kK2VZxp28jHNFf9" target="_blank" rel="noopener noreferrer">Submit Application</a>
-## <a href="https://us06web.zoom.us/meeting/register/aANv2XOVSreNVe2lSa1nOg" target="_blank" rel="noopener noreferrer">Sign up for Info Session</a>
-Sign up for an info session:
+## <a href="" rel="noopener noreferrer">Sign up for Info Session</a>
+Sign up for an info session:<br>
 <a href="https://us06web.zoom.us/meeting/register/aANv2XOVSreNVe2lSa1nOg" target="_blank">Monday January 19, 2026 at 5:30pm PST</a><br>
 <a href="https://us06web.zoom.us/meeting/register/EW57ynIURzaLnfaUoL201g" target="_blank">Sunday January 25, 2026 at 5pm PST</a><br>
 <a href = "https://us06web.zoom.us/meeting/register/b_Ycw3kbS2uC2II2ex8F-w" target="_blank">Sunday February 1, 2026 at 5pm PST </a><br>
