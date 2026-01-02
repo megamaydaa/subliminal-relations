@@ -33,4 +33,10 @@ The core themes are starting points based on our training and lived experience a
 
 ## <a href="https://forms.gle/A8kK2VZxp28jHNFf9" target="_blank" rel="noopener noreferrer">Submit Application</a>
 ## <a href="https://us06web.zoom.us/meeting/register/aANv2XOVSreNVe2lSa1nOg" target="_blank" rel="noopener noreferrer">Sign up for Info Session</a>
+Sign up for an info session:
+<a href="https://us06web.zoom.us/meeting/register/aANv2XOVSreNVe2lSa1nOg" target="_blank">Monday January 19, 2026 at 5:30pm PST</a>
+<a href="https://us06web.zoom.us/meeting/register/EW57ynIURzaLnfaUoL201g" target="_blank">Sunday January 25, 2026 at 5pm PST</a>
+<a href = "https://us06web.zoom.us/meeting/register/b_Ycw3kbS2uC2II2ex8F-w" target="_blank">Sunday February 1, 2026 at 5pm PST </a>
+<a href = "https://us06web.zoom.us/meeting/register/-0Bl1sbCTY68bA_rYeCy0A" target="_blank">Sunday February 8, 2026 at 2pm PST</a>
+
 
