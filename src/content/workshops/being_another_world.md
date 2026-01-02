@@ -31,5 +31,6 @@ The core themes are starting points based on our training and lived experience a
 - Principles of relational, embodied healing that you can creatively expand upon in ongoing trainings or personal therapy.
 - An introduction to theory and practice that can support your ongoing, deepening exploration of embodiment as a path back to somatic solidarity. 
 
-## <a href="https://calendly.com/subliminalrelations/30min" target="_blank" rel="noopener noreferrer">Sign up</a>
+## <a href="https://forms.gle/A8kK2VZxp28jHNFf9" target="_blank" rel="noopener noreferrer">Submit Application</a>
+## <a href="https://us06web.zoom.us/meeting/register/aANv2XOVSreNVe2lSa1nOg" target="_blank" rel="noopener noreferrer">Sign up for Info Session</a>
 
