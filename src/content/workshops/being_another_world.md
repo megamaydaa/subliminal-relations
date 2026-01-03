@@ -2,9 +2,10 @@
 title: "Being Another World: a path back to somatic solidarity"
 image: "images/BAWImage.jpg"
 imageAlt: "text element that says a path back to somatic solidarity emerging from a sphere surrounded by darkness"
-date: "February 22 - March 22, 2026"
-time: "4-6pm"
-location: "Pieter Performance Space, Lincoln Heights"
+eventDetails:
+  - "6 Sundays from 4-6pm"
+  - "February 22 - March 22, 2026"
+  - "Pieter Performance Space, Lincoln Heights"
 ---
 
 ## Being Another World: a path back to somatic solidarity
@@ -31,7 +32,8 @@ The core themes are starting points and we expect the content in each session to
 - Simple practices that you can bring to your social world to continue the work of building collective agency.
 - Principles of relational, embodied healing that you can creatively expand upon in ongoing trainings or personal therapy.
 
-## <a href="https://forms.gle/A8kK2VZxp28jHNFf9" target="_blank" rel="noopener noreferrer"> Apply</a>
+<a href="https://forms.gle/A8kK2VZxp28jHNFf9" target="_blank" rel="noopener noreferrer">Apply</a>
+
 ## Sign up for Info Session <br>
 <a href="https://us06web.zoom.us/meeting/register/aANv2XOVSreNVe2lSa1nOg" target="_blank">Monday January 19, 2026 at 5:30pm PST</a><br>
 <a href="https://us06web.zoom.us/meeting/register/EW57ynIURzaLnfaUoL201g" target="_blank">Sunday January 25, 2026 at 5pm PST</a><br>

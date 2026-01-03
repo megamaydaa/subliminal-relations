@@ -10,9 +10,10 @@ const workshopCollection = defineCollection({
           message: "Image must be at least 500 pixels wide!",
         }),
         imageAlt: z.string().optional(),
-        date: z.string(),
-        time: z.string(),
-        location: z.string(),
+        eventDetails: z.array(z.string()).optional(),
+        date: z.string().optional(),
+        time: z.string().optional(),
+        location: z.string().optional(),
       }),
       z.object({
         title: z.string(),

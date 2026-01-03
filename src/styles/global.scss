@@ -5,3 +5,9 @@ html {
   background-color: var(--background);
   font-family: "HelmetNeue", sans-serif;
 }
+
+// Fix underline styling to prevent ligature disruption
+a {
+  text-decoration-skip-ink: none;
+  text-underline-offset: 0.15em;
+}
