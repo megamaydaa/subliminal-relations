@@ -3,12 +3,12 @@ const location = Astro.url.pathname;
 import logo from "../../public/together3.gif";
 ---
 
-<nav class="w-full p-6 text-3xl lg:text-2xl pb-0 grid-in-nav">
-  <ul class="flex flex-wrap lg:flex-col w-full [&_li]:px-4 justify-center">
+<nav class="w-full p-6 pb-12 lg:pb-0 grid-in-nav border-b border-black lg:border-none">
+  <ul class="flex flex-wrap lg:flex-col w-full [&_li]:px-4 justify-center text-[2.25rem] lg:text-lg">
     <li
-      class="uppercase tracking-wider text-[#4b86b7] w-full flex justify-center lg:justify-start lg:w-auto items-center gap-4"
+      class="uppercase tracking-wider text-[#4b86b7] w-full flex flex-wrap justify-center lg:justify-start lg:w-auto items-center gap-4"
     >
-      <a href="/" class="w-[150px]">
+      <a href="/" class="w-[200px] lg:w-[150px]">
         <img src={logo.src} alt="Subliminal Relations" />
       </a>
       <a

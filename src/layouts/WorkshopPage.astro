@@ -33,11 +33,11 @@ const { title, image, imageAlt, eventDetails, date, time, location } = frontmatt
     <Line />
     <div class="grid-in-left-column hidden lg:flex flex-col gap-6 lg:px-0">
       <Image
-        class="self-center justify-self-start w-full max-w-2xl"
+        class="self-center justify-self-start w-full"
         src={image}
         alt={imageAlt || title}
       />
-      <div class="text-[1.95rem] lg:text-[1.4625rem] space-y-0.5 leading-tight">
+      <div class="text-[1.4625rem] space-y-0.5 leading-tight">
         {eventDetails ? (
           eventDetails.map((detail) => <div class="leading-tight">{detail}</div>)
         ) : (
@@ -49,13 +49,13 @@ const { title, image, imageAlt, eventDetails, date, time, location } = frontmatt
         )}
       </div>
     </div>
-    <div class="grid-in-content lg:hidden flex flex-col gap-6 px-8 -mt-[10px]">
+    <div class="lg:hidden workshop-content-mobile px-8">
       <Image
-        class="self-center justify-self-start w-full max-w-2xl"
+        class="self-center justify-self-start w-full mb-6"
         src={image}
         alt={imageAlt || title}
       />
-      <div class="text-[1.95rem] space-y-0.5 leading-tight">
+      <div class="text-2xl sm:text-3xl space-y-1 leading-tight mb-6">
         {eventDetails ? (
           eventDetails.map((detail) => <div class="leading-tight">{detail}</div>)
         ) : (
@@ -66,17 +66,153 @@ const { title, image, imageAlt, eventDetails, date, time, location } = frontmatt
           </>
         )}
       </div>
-      <div class="text-3xl text-left [&_h2]:text-4xl [&_h2]:sm:text-5xl [&_h2]:font-bold [&_h2]:tracking-wide [&_h2]:mb-4 [&_h2]:mt-0 [&_h2]:leading-tight [&_p]:mb-5 [&_p]:pl-0 [&_p]:leading-relaxed [&_ul]:list-none [&_ul]:mb-5 [&_ul]:pl-0 [&_li]:mb-2.5 [&_li]:before:content-['•'] [&_li]:before:mr-3 [&_strong]:font-bold [&_strong]:text-2xl [&_strong]:sm:text-3xl [&_p_strong]:pl-0 [&_a]:border-b-2 [&_a]:border-black [&_a]:pb-0.5 [&_a]:font-bold [&_a[href*='forms.gle']]:text-2xl [&_a[href*='forms.gle']]:sm:text-3xl [&_a[href*='forms.gle']]:inline-block [&_a[href*='forms.gle']]:mt-6 [&_a[href*='forms.gle']]:mb-4 [&_a[href*='forms.gle']]:no-underline [&_a[href*='forms.gle']]:border-b-4 [&_a[href*='forms.gle']]:border-[#d97757] [&_a[href*='forms.gle']]:pb-2 [&_a[href*='forms.gle']]:px-4 [&_a[href*='forms.gle']]:rounded-lg [&_a[href*='forms.gle']]:bg-gradient-to-br [&_a[href*='forms.gle']]:from-[#f4a582]/30 [&_a[href*='forms.gle']]:to-[#d97757]/25 [&_a[href*='forms.gle']]:transition-all [&_a[href*='forms.gle']]:duration-300 [&_a[href*='forms.gle']:hover]:from-[#f4a582]/40 [&_a[href*='forms.gle']:hover]:to-[#d97757]/35 [&_a[href*='forms.gle']:hover]:border-[#c0654a] [&_a[href*='forms.gle']:after]:content-['→'] [&_a[href*='forms.gle']:after]:ml-3 [&_a[href*='forms.gle']:after]:opacity-0 [&_a[href*='forms.gle']:after]:transition-opacity [&_a[href*='forms.gle']:after]:duration-300 [&_a[href*='forms.gle']:hover]:after:opacity-100 [&_a[href*='calendly']]:text-2xl [&_a[href*='calendly']]:sm:text-3xl [&_a[href*='calendly']]:inline-block [&_a[href*='calendly']]:mt-6 [&_a[href*='calendly']]:mb-4 [&_a[href*='calendly']]:no-underline [&_a[href*='calendly']]:border-b-4 [&_a[href*='calendly']]:border-[#d97757] [&_a[href*='calendly']]:pb-2 [&_a[href*='calendly']]:px-4 [&_a[href*='calendly']]:rounded-lg [&_a[href*='calendly']]:bg-gradient-to-br [&_a[href*='calendly']]:from-[#f4a582]/30 [&_a[href*='calendly']]:to-[#d97757]/25 [&_a[href*='calendly']]:transition-all [&_a[href*='calendly']]:duration-300 [&_a[href*='calendly']:hover]:from-[#f4a582]/40 [&_a[href*='calendly']:hover]:to-[#d97757]/35 [&_a[href*='calendly']:hover]:border-[#c0654a] [&_a[href*='calendly']:after]:content-['→'] [&_a[href*='calendly']:after]:ml-3 [&_a[href*='calendly']:after]:opacity-0 [&_a[href*='calendly']:after]:transition-opacity [&_a[href*='calendly']:after]:duration-300 [&_a[href*='calendly']:hover]:after:opacity-100">
-        <slot />
-      </div>
     </div>
-    <div
-      class="hidden lg:grid lg:grid-in-right-column -mt-[10px] lg:px-0 text-lg text-left [&_h2]:text-4xl [&_h2]:font-bold [&_h2]:tracking-wide [&_h2]:mb-4 [&_h2]:mt-0 [&_h2]:leading-tight [&_h2]:first:-mt-1 [&_p]:mb-5 [&_p]:pl-8 [&_p]:leading-relaxed [&_ul]:list-none [&_ul]:mb-5 [&_ul]:pl-8 [&_li]:mb-2.5 [&_li]:before:content-['•'] [&_li]:before:mr-3 [&_strong]:font-bold [&_strong]:text-xl [&_p_strong]:-ml-8 [&_p_strong]:pl-0 [&_a]:border-b-2 [&_a]:border-black [&_a]:pb-0.5 [&_a]:font-bold [&_a[href*='forms.gle']]:text-2xl [&_a[href*='forms.gle']]:inline-block [&_a[href*='forms.gle']]:mt-6 [&_a[href*='forms.gle']]:mb-4 [&_a[href*='forms.gle']]:no-underline [&_a[href*='forms.gle']]:border-b-4 [&_a[href*='forms.gle']]:border-[#d97757] [&_a[href*='forms.gle']]:pb-2 [&_a[href*='forms.gle']]:px-4 [&_a[href*='forms.gle']]:rounded-lg [&_a[href*='forms.gle']]:bg-gradient-to-br [&_a[href*='forms.gle']]:from-[#f4a582]/30 [&_a[href*='forms.gle']]:to-[#d97757]/25 [&_a[href*='forms.gle']]:transition-all [&_a[href*='forms.gle']]:duration-300 [&_a[href*='forms.gle']:hover]:from-[#f4a582]/40 [&_a[href*='forms.gle']:hover]:to-[#d97757]/35 [&_a[href*='forms.gle']:hover]:border-[#c0654a] [&_a[href*='forms.gle']:after]:content-['→'] [&_a[href*='forms.gle']:after]:ml-3 [&_a[href*='forms.gle']:after]:opacity-0 [&_a[href*='forms.gle']:after]:transition-opacity [&_a[href*='forms.gle']:after]:duration-300 [&_a[href*='forms.gle']:hover]:after:opacity-100 [&_a[href*='calendly']]:text-2xl [&_a[href*='calendly']]:inline-block [&_a[href*='calendly']]:mt-6 [&_a[href*='calendly']]:mb-4 [&_a[href*='calendly']]:no-underline [&_a[href*='calendly']]:border-b-4 [&_a[href*='calendly']]:border-[#d97757] [&_a[href*='calendly']]:pb-2 [&_a[href*='calendly']]:px-4 [&_a[href*='calendly']]:rounded-lg [&_a[href*='calendly']]:bg-gradient-to-br [&_a[href*='calendly']]:from-[#f4a582]/30 [&_a[href*='calendly']]:to-[#d97757]/25 [&_a[href*='calendly']]:transition-all [&_a[href*='calendly']]:duration-300 [&_a[href*='calendly']:hover]:from-[#f4a582]/40 [&_a[href*='calendly']:hover]:to-[#d97757]/35 [&_a[href*='calendly']:hover]:border-[#c0654a] [&_a[href*='calendly']:after]:content-['→'] [&_a[href*='calendly']:after]:ml-3 [&_a[href*='calendly']:after]:opacity-0 [&_a[href*='calendly']:after]:transition-opacity [&_a[href*='calendly']:after]:duration-300 [&_a[href*='calendly']:hover]:after:opacity-100 flex justify-start items-start"
-    >
-      <div class="max-w-screen-md self-start w-full">
+    <div class="workshop-content px-8 lg:px-0 lg:grid-in-right-column lg:-mt-[10px]">
+      <div class="lg:max-w-screen-md lg:self-start w-full">
         <slot />
       </div>
     </div>
   </body>
 </html>
 
+<style>
+  /* Event details styling for mobile */
+  .workshop-content-mobile .text-2xl {
+    font-size: 2rem !important;
+  }
+  
+  @media (min-width: 640px) {
+    .workshop-content-mobile .text-3xl {
+      font-size: 2.25rem !important;
+    }
+  }
+  
+  /* Unified workshop content styles */
+  .workshop-content {
+    font-size: 2rem !important;
+    line-height: 1.6;
+    text-align: left;
+  }
+  
+  /* Mobile styles */
+  .workshop-content :global(h2) {
+    font-size: 3.5rem;
+    font-weight: 700;
+    letter-spacing: 0.015em;
+    margin-bottom: 1.25rem;
+    margin-top: 2.5rem;
+    line-height: 1.1;
+  }
+  
+  .workshop-content :global(h2:first-child) {
+    margin-top: 0;
+  }
+  
+  .workshop-content :global(p) {
+    margin-bottom: 1.25rem;
+    padding-left: 0;
+    line-height: 1.6;
+    font-size: 2rem !important;
+  }
+  
+  .workshop-content :global(ul) {
+    list-style: none;
+    margin-bottom: 1.25rem;
+    padding-left: 0;
+  }
+  
+  .workshop-content :global(li) {
+    margin-bottom: 0.75rem;
+    padding-left: 1.25rem;
+    position: relative;
+    font-size: 2rem !important;
+    line-height: 1.6;
+  }
+  
+  .workshop-content :global(li)::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+  }
+  
+  .workshop-content :global(strong) {
+    font-weight: 700;
+    font-size: 2.25rem;
+  }
+  
+  /* Larger mobile screens */
+  @media (min-width: 640px) {
+    .workshop-content {
+      font-size: 2.125rem !important;
+    }
+    .workshop-content :global(h2) {
+      font-size: 3.75rem;
+    }
+    .workshop-content :global(p) {
+      font-size: 2.125rem !important;
+    }
+    .workshop-content :global(li) {
+      font-size: 2.125rem !important;
+    }
+    .workshop-content :global(strong) {
+      font-size: 2.375rem;
+    }
+  }
+  
+  /* Desktop styles */
+  @media (min-width: 1024px) {
+    .workshop-content {
+      font-size: 1.125rem !important;
+      line-height: 1.7;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+    
+    .workshop-content :global(h2) {
+      font-size: 2.6rem;
+      margin-bottom: 1rem;
+      margin-top: 2rem;
+      line-height: 1.25;
+    }
+    
+    .workshop-content :global(h2:first-child) {
+      margin-top: -0.25rem;
+    }
+    
+    .workshop-content :global(p) {
+      margin-bottom: 1.25rem;
+      padding-left: 2rem;
+      line-height: 1.7;
+      font-size: 1.125rem !important;
+    }
+    
+    .workshop-content :global(ul) {
+      margin-bottom: 1.25rem;
+      padding-left: 2rem;
+    }
+    
+    .workshop-content :global(li) {
+      margin-bottom: 0.625rem;
+      padding-left: 1.25rem;
+      font-size: 1.125rem !important;
+    }
+    
+    .workshop-content :global(strong) {
+      font-size: 1.625rem;
+    }
+    
+    .workshop-content :global(p strong) {
+      margin-left: -2rem;
+      padding-left: 0;
+    }
+  }
+  
+  /* Override border styles for regular links */
+  .workshop-content :global(a:not([href*='forms.gle']):not([href*='calendly']):not([href*='zoom.us'])) {
+    font-weight: 700;
+    border-bottom: 2px solid black;
+    padding-bottom: 0.125rem;
+  }
+</style>
+ 

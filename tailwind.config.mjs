@@ -30,7 +30,7 @@ export default {
       gridTemplateRows: {
         "mobile-about": "300px 950px auto",
         "desktop-about": "141px 400px 1fr",
-        "mobile-landing": "200px 1450px 200px",
+        "mobile-landing": "auto auto 200px",
         "desktop-landing": "141px auto",
         "mobile-workshop-page": "300px 1fr",
         "desktop-workshop-page": "141px 400px 1fr",
