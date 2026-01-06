@@ -4,7 +4,7 @@ image: "images/BAWImage.jpg"
 imageAlt: "text element that says a path back to somatic solidarity emerging from a sphere surrounded by darkness"
 eventDetails:
   - "6 Sundays from 2-4pm"
-  - "February 22 - March 22, 2026"
+  - "February 22 - March 29, 2026"
   - "Pieter Performance Space, Lincoln Heights"
 ---
 
