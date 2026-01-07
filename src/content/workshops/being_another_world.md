@@ -21,13 +21,13 @@ Together, we will explore six relational-developmental themes: (1) Ground, (2) R
 The core themes are starting points and we expect the content in each session to shift and change alongside the lived experience of the group. The level of intimacy and vulnerability will also be shaped by the group in real time, and situated within the larger process of co-creating an adaptive container to hold an expansive collective aliveness. 
 
 
-**Who is this for?**
+**Who is This For?**
 
 - This workshop is for anyone interested in exploring the power of and barriers to the felt-sense of relationship as a horizon of social change.
 - Helping professionals who want to step more into their own embodiment.
 - Community organizers who want to bring their whole self to their political work.
 
-**What will I step away with?**
+**What Will I Step Away With?**
 
 - A greater sense of availability, flexibility, courage and internal space for inner and inter-relationship.
 - A step towards the felt-sense of belonging to something bigger than the current status quo. 
