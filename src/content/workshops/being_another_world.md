@@ -16,7 +16,7 @@ We invite you into an adaptive container for sensing the contradictions between 
 
 **What to Expect**
 
-Together, we will explore six relational-developmental themes: (1) Ground, (2) Reciprocity, (3) Agency, (4) Rupture and Repair, (5) Rage and Grief and (6) Somatic Solidarity. Each week we will facilitate theater games, movement scores, and awareness practices that support the development of embodied listening. Along the way, we will build new layers of support as we deepen our inquiry. 
+Together, we will explore six relational-developmental themes: (1) Ground, (2) Reciprocity, (3) Agency, (4) Rupture and Repair, (5) Rage and Grief and (6) Somatic Solidarity. Each week we will facilitate theater games, movement scores, and awareness practices that support the development of embodied listening. Along the way, we will build new layers of support as we deepen our inquiry. For example:
 - Ground will focus on arriving in re-connection to the earth and our shared context through play and writing.
 - Reciprocity will deepen into the relationship with ground, while introducing partner practices that generate a felt-sense of interpersonal support.
 - Agency will build on that potential for interpersonal support while honoring boundary and differentiation through movement scores.
