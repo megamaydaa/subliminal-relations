@@ -14,7 +14,7 @@ I incorporate modalities that help restore the balance between relationship and 
 
 - **what:** 60 minute sessions
 - **where:** on zoom or in person Los Angeles
-- **how much:** sliding scale 25-100$ for 60 minutes
+- **how much:** sliding scale 40-100$ for 60 minutes
 
 
 ## <a href="https://calendly.com/subliminalrelations/30min" target="_blank" rel="noopener noreferrer">Book a Free Consultation</a>
